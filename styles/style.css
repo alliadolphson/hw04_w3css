@@ -46,6 +46,9 @@ h3 {
 	font-family: 'Shrikhand', cursive;
     font-size: 1.5rem;
 }
+h4 {
+	font-size: 1em;
+}
 .signoff {
 	text-align: right;
 	margin-right: 50px;
@@ -62,9 +65,6 @@ h3 {
 	font-family: 'Fanwood Text', serif;
 	font-size: 2rem;
 	font-style: bold;
-}
-h3 {
-	margin-left: 50px;
 }
 p {
 	text-align: justify;
@@ -96,6 +96,9 @@ p {
 .nav-item {
 	font-family: 'Fanwood Text', serif;
     font-size: 1.15rem;
+}
+.w3-card {
+	background-color: white;
 }
 a {
 	color: #204051;
