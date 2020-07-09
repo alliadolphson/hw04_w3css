@@ -1,0 +1,110 @@
+/* Week Four: Simple Group Website */
+/* Lauren Banawa, Justin Hickman, Alli Adolphson */
+/*ICT 4505 Web Design & Management */
+/* CSS File */
+
+html {
+	background-color: #84A9AC;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+header {
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Shrikhand', cursive;
+}
+.title {
+	font-family: 'Fanwood Text', serif;
+	font-size: 1rem;
+	text-align: center;
+}
+#article {
+	background-color: #E7DFD5;
+	max-width: 825px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 8px;
+}
+h1 {
+	color: #3B6978;
+	font-family: 'Shrikhand', cursive;
+	font-size: 3rem;
+}
+h2 {
+	margin-left: 50px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	color: #3B6978;
+	font-family: 'Shrikhand', cursive;
+    font-size: 2em;
+}
+h3 {
+	margin-left: 50px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	color: #3B6978;
+	font-family: 'Shrikhand', cursive;
+    font-size: 1.5rem;
+}
+.signoff {
+	text-align: right;
+	margin-right: 50px;
+	color: #3B6978;
+	font-family: 'Shrikhand', cursive;
+    font-size: 2em;
+}
+.signature {
+	text-align: right;
+	margin-right: 50px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	color: #3B6978;
+	font-family: 'Fanwood Text', serif;
+	font-size: 2rem;
+	font-style: bold;
+}
+h3 {
+	margin-left: 50px;
+}
+p {
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #204051;
+	font-family: 'Fanwood Text', serif;
+    font-size: 1.15rem;
+}
+.reference {
+	text-align: left;
+	text-indent: -4em;
+	margin-left: 115px;
+	font-family: 'Fanwood Text', serif;
+    font-size: 1rem;
+}
+.gallery {
+    margin: 0 auto;
+    width: 90%;
+}
+.about_img {
+    width: 80%;
+}
+.navbar-brand {
+	font-family: 'Fanwood Text', serif;
+	font-size: 1.25rem;
+	color: #3B6978;
+}
+.nav-item {
+	font-family: 'Fanwood Text', serif;
+    font-size: 1.15rem;
+}
+a {
+	color: #204051;
+}
+a:visited {
+	color: #84A9AC;
+}
+a:hover{
+	color: #E7DFD5;
+	background-color: #204051;
+	border-bottom-color: #204051;
+}
