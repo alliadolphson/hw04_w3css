@@ -15,8 +15,9 @@ header {
 }
 .title {
 	font-family: 'Fanwood Text', serif;
-	font-size: 1rem;
+	font-size: 16px;
 	text-align: center;
+	margin-top: 3px;
 }
 #article {
 	background-color: #E7DFD5;
@@ -29,6 +30,8 @@ h1 {
 	color: #3B6978;
 	font-family: 'Shrikhand', cursive;
 	font-size: 3.2rem;
+	line-height: 119%;
+	margin-bottom: 8px;
 }
 h2 {
 	margin-left: 50px;
@@ -90,10 +93,11 @@ p {
 	font-size: 1.25rem;
 	color: #84A9AC;
 	background-color: #3B6978;
+	line-height: 230%;
 }
 .w3-bar-item {
 	font-family: 'Fanwood Text', serif;
-	font-size: 1.15rem;
+	font-size: 1.3rem;
 }
 a {
 	color: #84A9AC;
