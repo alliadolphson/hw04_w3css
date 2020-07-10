@@ -28,7 +28,7 @@ header {
 h1 {
 	color: #3B6978;
 	font-family: 'Shrikhand', cursive;
-	font-size: 3rem;
+	font-size: 3.2rem;
 }
 h2 {
 	margin-left: 50px;
@@ -46,9 +46,6 @@ h3 {
 	font-family: 'Shrikhand', cursive;
     font-size: 1.5rem;
 }
-h4 {
-	font-size: 1em;
-}
 .signoff {
 	text-align: right;
 	margin-right: 50px;
@@ -62,8 +59,8 @@ h4 {
 	margin-top:20px;
 	margin-bottom: 20px;
 	color: #3B6978;
-	font-family: 'Fanwood Text', serif;
-	font-size: 2rem;
+	font-family: 'Sacramento', cursive;
+	font-size: 3rem;
 	font-style: bold;
 }
 p {
@@ -72,7 +69,7 @@ p {
 	margin-right: 50px;
 	color: #204051;
 	font-family: 'Fanwood Text', serif;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
 }
 .reference {
 	text-align: left;
@@ -88,20 +85,32 @@ p {
 .about_img {
     width: 80%;
 }
-.navbar-brand.w3-button {
+.w3-bar {
 	font-family: 'Fanwood Text', serif;
 	font-size: 1.25rem;
-	color: #3B6978;
+	color: #84A9AC;
+	background-color: #3B6978;
 }
-.nav-item {
+.w3-bar-item {
 	font-family: 'Fanwood Text', serif;
-    font-size: 1.15rem;
+	font-size: 1.15rem;
 }
-.w3-card {
-	background-color: white;
+a {
+	color: #84A9AC;
 }
-a.w3-button {
-	color: #204051;
+a:visited {
+	color: #84A9AC;
+}
+a:hover{
+	color: #E7DFD5;
+	background-color: #204051;
+	border-bottom-color: #204051;
+}
+.navbar-brand {
+	background-color: #3B6978;
+}
+.ml-auto {
+	background-color: #3B6978;
 }
 a:visited {
 	color: #84A9AC;
@@ -110,4 +119,27 @@ a.w3-button:hover{
 	color: #E7DFD5 !important;
 	background-color: #204051 !important;
 	border-bottom-color: #204051;
+}
+.gallery{
+	background-color: #E7DFD5;
+	padding: 16px 32px 16px 32px;
+	border-style: double;
+	border-color: #204051;
+}
+.w3-card {
+	background-color: #E7DFD5;
+	border-color: #204051;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.w3-container h4 {
+	color: #204051;
+	font-family: 'Fanwood Text', serif;
+	font-size: .85rem;
+}
+.w3-container {
+	background-color: #84A9AC;
+}
+.w3-third {
+	padding: 4px 4px 4px 4px;
 }
